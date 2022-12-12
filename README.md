@@ -37,6 +37,27 @@ To test whether these patches would generalize well across other models, we used
 |    Plane   | 26.67% | 24.51% | 24.14% | 13.04%% |
 |    Truck   | 25.98% | 25.42% | 24.96% |  12.95% |
 
+</div>
+
+## Final Deliverables
+
+Our final deliverables are in the `report/` folder or see below for direct links:
+
+- Our project overview in poster form [here](https://youtu.be/PzAVR38oM6Y)
+- Our full report [here](https://github.com/dai-anna/RenttheRunwayRecommendations/raw/main/report/RTRRecommendationsFinalReport.pdf)
+
+## Contributors
+
+<div align="center">
+
+| Name | Reference |
+|---- | ----|
+|Sarwari Das |[GitHub Profile](https://github.com/sarwaridas)|
+|Mohammad Anas |[GitHub Profile](https://github.com/anas14680|
+|Peining Yang |[GitHub Profile](https://github.com/peiningyang)|
+  
+</div>
+
 
 [1] Brown, T. B., Mane, D., Roy, A., Abadi, M., and Gilmer, J. *Adversarial patch*. CoRR, abs/1712.09665, 2017. URL http://arxiv.org/abs/1712.09665.
 
