@@ -11,7 +11,7 @@ In this project, we take the role of an attacker to craft and train these patche
 - Generate patch attacks in untargeted (failure to classify) and targeted (incorrect classification) fashions.
 - Test the effect of rotation, location and transferability of the patches. 
 
-Note: This project is an implementation of the methods described in the paper [Adversarial Patch](https://arxiv.org/abs/1712.09665)
+Note: This project is an implementation of the methods described in the paper [Adversarial Patch](https://arxiv.org/abs/1712.09665) [1]
 
 ## Data and Methods
 
@@ -21,4 +21,6 @@ Note: This project is an implementation of the methods described in the paper [A
 - The generated patches were then placed at a random location inside the test images. The untargeted patches were evaluated using test accuracy and the targeted patches were evaluated using both test accuracy and attack success rate (ASR). ASR was defined as the proportion of images that were predicted as the target class. 
 
 Results
+
+[1] Brown, T. B., Mane, D., Roy, A., Abadi, M., and Gilmer, J. *Adversarial patch*. CoRR, abs/1712.09665, 2017. URL http://arxiv.org/abs/1712.09665.
 
