@@ -43,7 +43,7 @@ To test whether these patches would generalize well across other models, we used
 
 Our final deliverables are in the `report/` folder or see below for direct links:
 
-- Our project overview in poster form [here](https://youtu.be/PzAVR38oM6Y)
+- Our project overview in poster form [here](https://github.com/sarwaridas/AdversarialPatches/blob/main/img/ECE661_FinalProject_Poster.pdf)
 - Our full report [here](https://github.com/dai-anna/RenttheRunwayRecommendations/raw/main/report/RTRRecommendationsFinalReport.pdf)
 
 ## Contributors
@@ -53,7 +53,7 @@ Our final deliverables are in the `report/` folder or see below for direct links
 | Name | Reference |
 |---- | ----|
 |Sarwari Das |[GitHub Profile](https://github.com/sarwaridas)|
-|Mohammad Anas |[GitHub Profile](https://github.com/anas14680|
+|Mohammad Anas |[GitHub Profile](https://github.com/anas14680)|
 |Peining Yang |[GitHub Profile](https://github.com/peiningyang)|
   
 </div>
