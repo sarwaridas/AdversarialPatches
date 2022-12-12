@@ -20,7 +20,23 @@ Note: This project is an implementation of the methods described in the paper [A
 - A rectangular patch of the required size (3x3, 5x5, 7x7 and 16x16) was initialized and placed at a random location in the training images. The patch was then optimized over 10 epochs with a learning rate of 0.1 and Adam optimizer. 
 - The generated patches were then placed at a random location inside the test images. The untargeted patches were evaluated using test accuracy and the targeted patches were evaluated using both test accuracy and attack success rate (ASR). ASR was defined as the proportion of images that were predicted as the target class. 
 
-Results
+## Results
+
+### Whitebox
+Patches were evaluated on our test data using a Resnet20 CNN. We noticed that the larger patches were more successful; as the patch size increased, our test accuracy dropped, and the attack success rate increased. This was found to be true for all targeted and untargeted attacks. The results of our white box model are shown below.
+
+ <img width=600 align="center" src="img\Results.png">
+
+### Blackbox
+To test whether these patches would generalize well across other models, we used a VGG 16 model architecture as our black box model. This model was pretrained on the Image Net dataset, and we used transfer learning to optimize the model on our Cifar-10 training data, which resulted in an accuracy of 92% of our unperturbed test data. On adding our patches to the data, we notice that validation accuracy fell for patches of all sizes, while the ASR increased as well. Overall, we notice similar trends as the whitebox model, wherein larger patch sizes result in worse accuracies. 
+
+| Class name |   3x3  |   5x5  |   7x7  |  16x16  |
+|:----------:|:------:|:------:|:------:|:-------:|
+|    Bird    | 26.08% | 26.06% | 23.76% |  14.88% |
+|     Car    | 25.22% | 24.27% | 22.53% |  12.64% |
+|    Plane   | 26.67% | 24.51% | 24.14% | 13.04%% |
+|    Truck   | 25.98% | 25.42% | 24.96% |  12.95% |
+
 
 [1] Brown, T. B., Mane, D., Roy, A., Abadi, M., and Gilmer, J. *Adversarial patch*. CoRR, abs/1712.09665, 2017. URL http://arxiv.org/abs/1712.09665.
 
