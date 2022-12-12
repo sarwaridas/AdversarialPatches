@@ -43,8 +43,8 @@ To test whether these patches would generalize well across other models, we used
 
 Our final deliverables are in the `report/` folder or see below for direct links:
 
-- Our project overview in poster form [here](https://github.com/sarwaridas/AdversarialPatches/blob/main/img/ECE661_FinalProject_Poster.pdf)
-- Our full report [here](https://github.com/dai-anna/RenttheRunwayRecommendations/raw/main/report/RTRRecommendationsFinalReport.pdf)
+- Our project overview in poster form [here](https://github.com/sarwaridas/AdversarialPatches/blob/main/report/ECE661_FinalProject_Poster.pdf)
+- Our full report [here](https://github.com/sarwaridas/AdversarialPatches/blob/main/report/FinalPaper.pdf)
 
 ## Contributors
 
